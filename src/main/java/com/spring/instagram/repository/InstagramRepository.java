@@ -4,6 +4,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.spring.instagram.model.Instagram;
 
-public interface InstagramRepository extends JpaRepository<Instagram, Integer>{
+public interface InstagramRepository extends JpaRepository<Instagram, Long>{
 
 }

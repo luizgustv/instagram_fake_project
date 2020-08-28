@@ -9,7 +9,7 @@ import java.util.Base64;
 
 public class InstagramUtil {
 	
-	public byte[] encoder(String filePath) {
+	/*public byte[] encoder(String filePath) {
 		
 	    File file = new File(filePath);
 	    
@@ -52,6 +52,6 @@ public class InstagramUtil {
 					}
 		    	}
 		    }
-	}
+	}*/
 
 }

@@ -1,6 +1,5 @@
 package com.spring.instagram.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,30 +13,30 @@ public class Instagram {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Integer id;
+	private Long id;
 
-	@Column(columnDefinition = "bytea")
-	private byte[] file;
+	//@Column(columnDefinition = "bytea")
+	//private byte[] file;
 	
-	@Transient
+	//@Transient
 	private String pathFile;
 	
 	private String curtida;
 	private String comentario;
 	
-	public Integer getId() {
+	public Long getId() {
 		return id;
 	}
-	public void setId(Integer id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 	
-	public byte[] getFile() {
+	/*public byte[] getFile() {
 		return file;
 	}
 	public void setFile(byte[] file) {
 		this.file = file;
-	}
+	}*/
 	
 	public String getPathFile() {
 		return pathFile;

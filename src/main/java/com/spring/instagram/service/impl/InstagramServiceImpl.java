@@ -21,7 +21,7 @@ public class InstagramServiceImpl implements InstagramService{
 	}
 
 	@Override
-	public Instagram findById(int id) {
+	public Instagram findById(long id) {
 		return instagramRepository.findById(id).get();
 	}
 
@@ -29,5 +29,11 @@ public class InstagramServiceImpl implements InstagramService{
 	public Instagram save(Instagram instagram) {
 		return instagramRepository.save(instagram);
 	}
+
+	@Override
+	public void deleteById(long id) {
+		instagramRepository.deleteById(id);
+	}
+
 
 }

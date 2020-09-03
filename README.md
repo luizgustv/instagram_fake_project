@@ -1,10 +1,14 @@
-<h3>Projeto que simular algumas das funções do Instagram:</h3>
+<h3>Projeto Instagram:</h3>
 
-<p>Nele podemos postar fotos, vídeos, curtir e comentar.</p>
+<p>Projeto de aplicativo onde os usuários podem postar fotos, vídeos, curtir e comentar.</p>
+
+<img src="/template/imagem.png">
+<p>Visualização de uma imagem no navegador</p>
 
 <p>A fim de oferecer melhorar o armazenamento e visualização dos posts pelos usuários, foi feito o uso da abordagem de file store:</p>
 <p>Ao adicionar um novo post, são salvos apenas a quantidade de curtidas, comentários e um link que leva para a exibição da imagem. Esta, está armazenada em um serviço de nuvem chamado <a href="https://cloudinary.com/">Cloudinary</a>.</p> 
-<p>Aliás o banco de dados está hospedado na nuvem através do <a href="https://www.elephantsql.com/">ElephantSQL</a>.</p>
+
+<p>(O banco de dados está hospedado na nuvem através do <a href="https://www.elephantsql.com/">ElephantSQL</a>).</p>
 
 <h3>Rodando projeto localmente:</h3>
 <p>na pasta do projeto no promt de comando, digite:</p>
@@ -13,7 +17,7 @@
 <h3>Requisições:</h3>
 
 <h4>GET: localhost:8080/<h4>
-<p>Exibe todos os posts no formato:</p>
+<p>Exibe todos as postagens no formato:</p>
 
 ```json
 { 
@@ -25,10 +29,11 @@
 ```
 
 <h4>GET By Id: localhost:8080/ID</h4>
-<p>Mostra um post em específico</p>
+<p>Mostra uma postagem em específico</p>
 
 <h4>POST: localhost:8080/upload</h4>
-<p>Corpo da requisição:</p>
+
+<p>É criada uma nova postagem no formato:</p>
 
 ```json
 {
@@ -39,7 +44,8 @@
 ```
 
 <h4>PUT: localhost:8080/ID</h4>
-<p>Corpo da requisição:</p>
+
+<p>Permite alterar uma postagem:</p>
 <p>(Apenas as curtidas e os comentários podem sofrer alteração)</p>
 
 ```json
@@ -50,4 +56,4 @@
 ```
 
 <h4>DELETE: localhost:8080/ID</h4>
-<p>Delete um post pelo ID</p>
+<p>Permite deletar uma postagem pelo seu identificador</p>

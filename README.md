@@ -2,8 +2,15 @@
 
 <p>Projeto de aplicativo onde os usuários podem postar fotos, vídeos, curtir e comentar.</p>
 
+<img src="/template/insgram-esquema.png">
+<p>(Esquematização do armazenamento e exibição de dados)</p>
+
+<br><br>
+
 <img src="/template/imagem.png">
-<p>Visualização de uma imagem no navegador</p>
+<p>(Visualização de uma imagem no navegador)</p>
+
+<br><br>
 
 <p>A fim de oferecer melhorar o armazenamento e visualização dos posts pelos usuários, foi feito o uso da abordagem de file store:</p>
 <p>Ao adicionar um novo post, são salvos apenas a quantidade de curtidas, comentários e um link que leva para a exibição da imagem. Esta, está armazenada em um serviço de nuvem chamado <a href="https://cloudinary.com/">Cloudinary</a>.</p> 

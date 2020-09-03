@@ -3,7 +3,7 @@
 <p>Projeto de aplicativo onde os usuários podem postar fotos, vídeos, curtir e comentar.</p>
 
 <img src="/template/insgram-esquema.png">
-<p>(Esquematização do armazenamento e exibição de dados)</p>
+<p>(Esquematização do armazenamento e exibição de dados fonte: https://www.youtube.com/watch?v=MT-YuUSA0bg)</p>
 
 <br><br>
 

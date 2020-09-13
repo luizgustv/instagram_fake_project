@@ -1,6 +1,6 @@
 <h3>Projeto Instagram:</h3>
 
-<p>Projeto de aplicativo onde os usuários podem postar fotos, vídeos, curtir e comentar.</p>
+<p>Projeto de simulação do aplicativo Instagram, onde os usuários podem postar fotos, vídeos, curtir e comentar.</p>
 
 <img src="/template/insgram-esquema.png">
 <p>(Esquematização do armazenamento e exibição de dados fonte: https://www.youtube.com/watch?v=MT-YuUSA0bg)</p>

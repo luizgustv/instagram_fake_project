@@ -13,13 +13,7 @@ public class CloudinaryConfig {
 	
 	public Cloudinary getConfig() {
 		
-		/*Map config = new HashMap();
-		config.put("cloud_name","dildbjrev");
-		config.put("api_key", "884276542269511");
-		config.put("api_secret", "opdq5gTON4zoZXe7Pd0mWllzmSU");
-		Cloudinary cloudinary = new Cloudinary(config);
-		*/
-		Cloudinary cloudinary = new Cloudinary("cloudinary://884276542269511:opdq5gTON4zoZXe7Pd0mWllzmSU@dildbjrev");
+		Cloudinary cloudinary = new Cloudinary("cloudinary://api_key:api_secret@cloud_name");
 		
 		return cloudinary;
 	}
